@@ -1,27 +1,15 @@
 # kseg
 
 <p align="center">
+  <b>Khmer Script Segmenter</b> - A powerful Flutter package for detecting and styling mixed script text
+</p>
+
+<p align="center">
   <a href="https://pub.dev/packages/kseg"><img src="https://img.shields.io/pub/v/kseg.svg?style=for-the-badge" alt="Pub.dev Badge"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg?style=for-the-badge" alt="License: MIT"></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Platform-Flutter-02569B?logo=flutter&style=for-the-badge" alt="Platform"></a>
   <a href="https://github.com/sovanken/kseg"><img src="https://img.shields.io/github/stars/sovanken/kseg.svg?style=for-the-badge" alt="GitHub stars"></a>
 </p>
-
-<p align="center">
-  <b>Khmer Script Segmenter</b> - A powerful Flutter package for detecting and styling mixed script text
-</p>
-
-<p align="center">
-  <a href="#key-features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#api-reference">API</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#contributing">Contributing</a>
-</p>
-
----
 
 ## 📋 Overview
 
