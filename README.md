@@ -255,7 +255,7 @@ static SegmentedString extractLatin(String text)
 ## 🎬 Demo
 
 Check out our [example project](https://github.com/sovanken/kseg/tree/main/example) for a complete demonstration of all features.
-![Kseg Demo](https://raw.githubusercontent.com/sovanken/kseg/example/lib/demo.png)
+![Kseg Demo](https://raw.githubusercontent.com/sovanken/kseg/main/example/lib/demo.png)
 
 ## 🔧 How It Works
 
