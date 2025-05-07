@@ -266,10 +266,6 @@ static SegmentedString extractLatin(String text)
 
 ## 🎬 Demo
 
-<div align="center">
-  <img src="https://via.placeholder.com/640x360.png?text=kseg+Demo" width="640" alt="kseg demo"/>
-</div>
-
 Check out our [example project](https://github.com/sovanken/kseg/tree/main/example) for a complete demonstration of all features.
 
 ## 🔧 How It Works
@@ -284,65 +280,3 @@ Check out our [example project](https://github.com/sovanken/kseg/tree/main/examp
 | Android | iOS | macOS | Web | Linux | Windows |
 |:-------:|:---:|:-----:|:---:|:-----:|:-------:|
 |    ✅    |  ✅  |   ✅   |  ✅  |   ✅   |    ✅    |
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Report Issues**: Report bugs or request features via GitHub issues
-2. **Submit Pull Requests**: Improve the code or documentation
-3. **Share Feedback**: Tell us how we can make `kseg` better
-
-Please follow these steps for contributions:
-
-```bash
-# Fork the repository
-git clone https://github.com/YOUR-USERNAME/kseg.git
-
-# Create a branch for your feature
-git checkout -b feature/amazing-feature
-
-# Commit your changes
-git commit -m 'Add some amazing feature'
-
-# Push to the branch
-git push origin feature/amazing-feature
-
-# Open a Pull Request
-```
-
-## 📄 License
-
-```
-MIT License
-
-Copyright (c) 2023 Sovanken
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## 👨‍💻 Author
-
-**Sovanken** - [GitHub](https://github.com/sovanken)
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/sovanken">Sovanken</a>
-</p>
