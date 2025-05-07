@@ -183,7 +183,7 @@ class Kseg extends StatelessWidget {
   /// - [maxLines]: Maximum number of lines to display
   /// - Additional text widget properties
   const Kseg({
-    Key? key,
+    super.key,
     required this.text,
 
     // Khmer style properties
@@ -231,7 +231,7 @@ class Kseg extends StatelessWidget {
     this.softWrap,
     this.textWidthBasis,
     this.textHeightBehavior,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

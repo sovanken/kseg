@@ -17,6 +17,8 @@
 ///   latinFontSize: 16,
 /// )
 /// ```
+// ignore_for_file: unnecessary_library_name
+
 library kseg;
 
 // Export detector components
