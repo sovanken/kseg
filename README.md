@@ -1,10 +1,6 @@
 # kseg
 
 <p align="center">
-  <img src="https://via.placeholder.com/150x150.png?text=kseg" alt="kseg logo" width="150" height="150"/>
-</p>
-
-<p align="center">
   <a href="https://pub.dev/packages/kseg"><img src="https://img.shields.io/pub/v/kseg.svg?style=for-the-badge" alt="Pub.dev Badge"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg?style=for-the-badge" alt="License: MIT"></a>
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Platform-Flutter-02569B?logo=flutter&style=for-the-badge" alt="Platform"></a>
@@ -30,23 +26,6 @@
 ## 📋 Overview
 
 **kseg** is a specialized Flutter package that elegantly solves the challenge of displaying mixed Khmer and Latin script text with proper styling. It automatically detects and segments different scripts within a string, allowing you to apply distinct styles (font family, size, weight, color, etc.) to each script type.
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180.png?text=Before+kseg" width="320"/>
-        <br/>
-        <em>Without kseg</em>
-      </td>
-      <td align="center">
-        <img src="https://via.placeholder.com/320x180.png?text=With+kseg" width="320"/>
-        <br/>
-        <em>With kseg</em>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ## ✨ Key Features
 
