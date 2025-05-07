@@ -3,7 +3,30 @@ import 'package:google_fonts/google_fonts.dart';
 import '../detector/script_detector.dart';
 import '../segmenter/text_segmenter.dart';
 
-/// A widget that displays text with different styles for Khmer and Latin scripts
+/// A widget that displays text with different styles for Khmer and Latin scripts.
+///
+/// The Kseg widget automatically detects and segments text by script type
+/// (Khmer, Latin, or other) and applies the appropriate styling to each segment.
+/// This enables proper typographic treatment of mixed-script text, ensuring
+/// that each script is displayed with appropriate font, size, and styling.
+///
+/// Kseg supports both system fonts and Google Fonts, with Google Fonts enabled
+/// by default. For each script type (Khmer and Latin), you can specify a wide
+/// range of styling properties, including font family, size, weight, color,
+/// letter spacing, and text decoration.
+///
+/// Example:
+/// ```dart
+/// Kseg(
+///   text: "តេស្តTest អក្សរខ្មែរ Latin script",
+///   khFont: "Battambang",
+///   latinFont: "Roboto",
+///   khFontSize: 18,
+///   latinFontSize: 16,
+///   khColor: Colors.blue,
+///   latinColor: Colors.black,
+/// )
+/// ```
 class Kseg extends StatelessWidget {
   /// The text to display
   final String text;
@@ -132,7 +155,33 @@ class Kseg extends StatelessWidget {
   /// Text height behavior for the entire widget
   final TextHeightBehavior? textHeightBehavior;
 
-  /// Creates a new Kseg widget with support for both system fonts and Google Fonts
+  /// Creates a new Kseg widget with support for both system fonts and Google Fonts.
+  ///
+  /// [text] is the text string to display, which can contain a mix of Khmer, Latin,
+  /// and other scripts.
+  ///
+  /// Font properties:
+  /// - [khFont]/[latinFont]: Font family for Khmer/Latin text.
+  /// - [khUseGoogleFont]/[latinUseGoogleFont]: Whether to use Google Fonts for the
+  ///   specified font family. Defaults to true for both.
+  ///
+  /// Text style properties for Khmer and Latin scripts:
+  /// - [khFontSize]/[latinFontSize]: Font size
+  /// - [khFontWeight]/[latinFontWeight]: Font weight (bold, normal, etc.)
+  /// - [khFontStyle]/[latinFontStyle]: Font style (italic, normal)
+  /// - [khColor]/[latinColor]: Text color
+  /// - [khBackgroundColor]/[latinBackgroundColor]: Background color
+  /// - [khLetterSpacing]/[latinLetterSpacing]: Spacing between letters
+  /// - [khWordSpacing]/[latinWordSpacing]: Spacing between words
+  /// - [khHeight]/[latinHeight]: Line height
+  /// - And additional text decoration properties
+  ///
+  /// General text properties:
+  /// - [textAlign]: Alignment of the text within its container
+  /// - [textDirection]: Direction of the text (LTR or RTL)
+  /// - [overflow]: How to handle text that doesn't fit
+  /// - [maxLines]: Maximum number of lines to display
+  /// - Additional text widget properties
   const Kseg({
     Key? key,
     required this.text,

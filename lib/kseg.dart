@@ -1,7 +1,22 @@
 /// Khmer Script Segmenter (kseg)
 ///
-/// A Flutter package that detects and segments different scripts within a string,
+/// A Flutter package for detecting and styling different scripts within a string,
 /// with a focus on Khmer and Latin scripts.
+///
+/// This package enables developers to automatically identify Khmer and Latin
+/// script segments within text and apply different styles to each segment,
+/// ensuring proper typography and readability for mixed-script text.
+///
+/// Example usage:
+/// ```dart
+/// Kseg(
+///   text: "តេស្តTest អក្សរខ្មែរ Latin script",
+///   khFont: "Battambang",
+///   latinFont: "Roboto",
+///   khFontSize: 18,
+///   latinFontSize: 16,
+/// )
+/// ```
 library kseg;
 
 // Export detector components

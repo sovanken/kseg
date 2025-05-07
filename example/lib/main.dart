@@ -91,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 latinFont: 'Roboto',
                 khFontSize: 20,
                 latinFontSize: 16,
-                // Google Fonts is used by default (khUseGoogleFont and latinUseGoogleFont default to true)
               ),
             ),
 
